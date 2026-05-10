@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "thermalcompass",
+  "version": "${version}",
+  "name": "Thermal Compass",
+  "description": "Compass that glows and shows distance to nearby lava and magma blocks.",
+  "authors": [
+    "Grok"
+  ],
+  "contact": {
+    "homepage": "https://github.com/daniil148852/thermal-compass"
+  },
+  "license": "MIT",
+  "icon": "assets/thermalcompass/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "com.example.thermalcompass.ThermalCompass"
+    ],
+    "client": [
+      "com.example.thermalcompass.ThermalCompassClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.20.1",
+    "java": ">=17"
+  }
+}
